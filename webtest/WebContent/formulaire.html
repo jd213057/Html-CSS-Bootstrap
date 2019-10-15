@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Page Formulaire</title>
+<link rel="StyleSheet" type ="text/css" href="css/bootstrap.min.css">
+<style> 
+
+</style>
+</head>
+<body>
+<h1> Veuillez répondre aux questions ci-dessous:</h1>
+<form id="myform" action="action.jsp" method="GET" autocomplete="off" enctype="application/x-www-form-urlencoded">
+<div>
+<label for="nom">    nom   : </label><input  type="text"  name="nom"/><br/>
+<label for="prenom"> prenom: </label><input type="text"  name="prenom"/><br/>
+<label for="age">    age   : </label><input  type="number"  name="age" class="input"/><br/>
+<label for="email">    email : </label><input type="email" name="email"/><br/>
+<label for="plats">    Fast-Food préférés : </label><br/>
+<input type="checkbox" name="plats" id="plats" value="Burger-King"/>Burger-King
+<input type="checkbox" name="plats" id="plats" value="KFC"/>KFC
+<input type="checkbox" name="plats" id="plats" value="McDo"/>McDo <br/>
+<label for="plat préféré">    plat préféré : </label><br/>
+<input type="radio" name="plat préféré" id="plat préféré" value="Pizza"/>Pizza
+<input type="radio" name="plat préféré" id="plat préféré" value="Poulet frit"/>Poulet frit
+<input type="radio" name="plat préféré" id="plat préféré" value="Hamburger"/>Hamburger<br/>
+<label for="file">    Joindre un fichier : </label><br/>
+<input type="file" name="file" id="file" value="file" placeholder="CV" />CV
+<fieldset>
+<legend>Civilité</legend>
+<input name="civilité" list="civilité" />
+</fieldset>
+<datalist id="civilité">
+<option value="Mr" label="Mr" />Mr</option>
+<option value="Mme" label="Mme" />Mme</option>
+<option value="Mlle" label="Mlle" >Mlle</option>
+</datalist> <br/>
+<label for="donation">   Faire un don sur le site  </label><br/>
+<select name="donnation" >
+<option value="1">1$</option>
+<option value="10">10$</option>
+<option value="100">100$</option>
+<option value="150">150$</option>
+<option value="200">200$</option>
+<option value="500">500$</option>
+</select>
+<button>Envoyer</button>
+<button type ="reset">Annuler</button> <br/>
+</div>
+</form>
+<form>
+<fieldset>
+
+
+</body>
+</html>

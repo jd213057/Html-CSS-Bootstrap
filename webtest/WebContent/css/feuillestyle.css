@@ -1,0 +1,72 @@
+body {
+	background-color: red;
+}
+
+h1{
+	color: #2e88d1;
+}
+#bar{
+	color:green;
+}
+.surligne{
+	color:yellow;
+	front-size:xx-large;
+}
+
+.foo{
+	border: 1px black solid;
+}
+a:visited
+{
+	color:black;
+}
+#envoyer{
+	background-color : green;
+	color: black;
+	border : 1px black solid;
+	border-radius : 10px;
+}
+#annuler{
+	background-color : red;
+	color: black;
+	border : 1px black solid;
+	border-radius : 10px;
+}
+.home{
+	background-color : green;
+	color: black;
+	border : 1px black solid;
+	border-radius : 10px;
+}
+.blocvide{
+	height : 600px;
+	background-color : yellow;
+	color: black;
+	width : 2600px;
+	
+}
+.top{
+	 position : fixed;
+    bottom : 10px;
+    right : 10px;
+	background-color : red;
+	color: black;
+	border : 1px black solid;
+	width: 5%;
+}
+.formulaire{
+	background-color : yellow;
+	color: black;
+	border : 1px black solid;
+	width: 300px;
+}
+.input{text-align:right;}
+
+form#myform label { display:inline-block; width:100px; }
+form#myform input { display:inline-block; }
+form#myform input[type=submit] { color:#fff; background-color:green; }
+
+label{
+	float :left;
+	width: 100px;
+}

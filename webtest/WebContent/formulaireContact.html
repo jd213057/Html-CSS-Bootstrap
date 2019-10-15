@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Demande de contact</title>
+<link rel="StyleSheet" type ="text/css" href="css/formulaire.css">
+</head>
+<body>
+<h1> Formulaire de Contact:</h1>
+<form id="myform" action="action.jsp" method="GET" autocomplete="off" enctype="application/x-www-form-urlencoded">
+<div> 
+<label for="nom">    nom   : </label><input  type="text"  name="nom" placeholder="nom,prénom"/><br/>
+</div>
+<div> 
+<label for="email">    email : </label><input type="email" name="email" placeholder="Saisir votre email"/><br/>
+</div>
+<div> 
+<label for="email">    email : </label><input type="email" name="email" placeholder="Confirmer votre email"/><br/>
+</div>
+<div> 
+<label for="Objet">   Type de demande:  </label><br/>
+<select name="Objet" >
+<option value="Reclamation">Reclamation</option>
+<option value="Demande de documentation">Demande de documentation</option>
+<option value="Demande interlocuteur">Demande d'interlocuteur</option>
+<option value="Autre">Autre</option>
+</select>
+</div>
+<div>
+<label for="message">    Message : </label><textarea cols=5 rows=5 class="message" name="message" spellcheck="true"></textarea>/>
+</div>
+<div> 
+<button>Envoyer</button>
+<button type ="reset">Annuler</button> <br/>
+</div>
+
+</body>
+</html>
